@@ -10,12 +10,12 @@ main {
         justify-content: center;
         width: 100%;
         height: auto;
-        padding: 0 4rem;
+        padding: 0 1rem;
         margin-bottom: 8rem;
         cursor: pointer;
 
-        @include atSmall {
-          padding: 0;
+        @include atMedium {
+         padding: 0 4rem;
         }
 
             h1 {

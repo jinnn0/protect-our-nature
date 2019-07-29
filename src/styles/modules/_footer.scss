@@ -6,12 +6,17 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
  
-      .social {
-        width: 400px;
+      .social { 
+        width: 100%;
         display: flex;
         justify-content: space-between;
         margin-bottom: 50px;
+
+        @include atMedium {
+          width: 400px;
+        }
 
               a {
                 border: 1px solid transparent;

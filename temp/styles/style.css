@@ -42,7 +42,7 @@ a {
       min-width: 100%;
       min-height: 100%; }
   .video-header_content-container {
-    padding: 0;
+    padding: 0 1rem;
     text-align: center;
     z-index: 3; }
     @media (min-width: 750px) {
@@ -76,12 +76,12 @@ main {
     justify-content: center;
     width: 100%;
     height: auto;
-    padding: 0 4rem;
+    padding: 0 1rem;
     margin-bottom: 8rem;
     cursor: pointer; }
-    @media (min-width: 500px) {
+    @media (min-width: 750px) {
       main section {
-        padding: 0; } }
+        padding: 0 4rem; } }
     main section h1 {
       width: 100%;
       margin-bottom: 2rem; }
@@ -105,10 +105,13 @@ footer {
   justify-content: center;
   align-items: center; }
   footer .social {
-    width: 400px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px; }
+    @media (min-width: 750px) {
+      footer .social {
+        width: 400px; } }
     footer .social a {
       border: 1px solid transparent; }
     footer .social a:hover {
