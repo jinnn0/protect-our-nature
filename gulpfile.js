@@ -1,5 +1,5 @@
 const gulp = require('gulp'),
-      sass = require('gulp-sass'),
+      sass = require('gulp-sass'), 
       browserSync = require('browser-sync').create(),
       webpack = require('webpack'),
       webpackConfig = require('./webpack.config'),

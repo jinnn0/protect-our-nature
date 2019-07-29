@@ -1,9 +1,9 @@
-# Creative-Minds
+# Protect Our Nature
 
-Creative Minds is the place where we share different ideas and inspirations
+Protect Our Nature is a project to raise the environmental awareness
 
-We believe in **creativity** and **people**
+We care our **naturey** and **The Earth**
 
 ------
 
-For recent posts check out our website [Creative Minds](https://jinnn0.github.io/creative-minds/)
+For recent projects check out our website [Protect Our Nature](https://jinnn0.github.io/protect-our-nature/)
