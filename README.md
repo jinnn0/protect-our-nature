@@ -2,7 +2,7 @@
 
 Protect Our Nature is a project to raise the environmental awareness
 
-We care our **naturey** and **The Earth**
+We care about our **Nature** and **The Earth**
 
 ------
 
