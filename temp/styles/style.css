@@ -42,9 +42,12 @@ a {
       min-width: 100%;
       min-height: 100%; }
   .video-header_content-container {
-    padding: 2.5rem 6rem;
+    padding: 0;
     text-align: center;
     z-index: 3; }
+    @media (min-width: 750px) {
+      .video-header_content-container {
+        padding: 2.5rem 6rem; } }
     .video-header_content-container h1 {
       font-size: 3rem;
       margin-bottom: 1em; }
@@ -76,13 +79,22 @@ main {
     padding: 0 4rem;
     margin-bottom: 8rem;
     cursor: pointer; }
+    @media (min-width: 500px) {
+      main section {
+        padding: 0; } }
     main section h1 {
-      width: 50%;
+      width: 100%;
       margin-bottom: 2rem; }
+      @media (min-width: 750px) {
+        main section h1 {
+          width: 50%; } }
     main section p {
-      width: 70%;
+      width: 100%;
       margin-bottom: 1rem;
       text-align: left; }
+      @media (min-width: 750px) {
+        main section p {
+          width: 70%; } }
 
 footer {
   height: 300px;

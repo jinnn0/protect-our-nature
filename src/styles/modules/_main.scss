@@ -1,11 +1,9 @@
 main {
-  // background-color: beige;
   width: 100%;
   height: auto;
 
 
       section {
-        // @include border;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -16,17 +14,27 @@ main {
         margin-bottom: 8rem;
         cursor: pointer;
 
+        @include atSmall {
+          padding: 0;
+        }
+
             h1 {
-              // @include border;
-              width: 50%;
+              width: 100%;
               margin-bottom: 2rem;
+
+              @include atMedium {
+                width: 50%;
+              }
             }
 
             p {
-              // @include border;
-              width: 70%;
+              width: 100%;
               margin-bottom: 1rem;
               text-align: left;
+
+              @include atMedium {
+                width: 70%;
+              }
             }
       }
 }

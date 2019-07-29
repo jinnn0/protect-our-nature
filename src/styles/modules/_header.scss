@@ -22,9 +22,13 @@
 
           &_content-container {
             // @include border;
-            padding: 2.5rem 6rem;
+            padding: 0;
             text-align: center;
             z-index: 3;
+
+            @include atMedium {
+              padding: 2.5rem 6rem;
+            }
       
 
                   h1 {
