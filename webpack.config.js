@@ -1,6 +1,6 @@
 let path = require('path')
 
-module.exports = {
+module.exports = { 
   entry: './src/scripts/app.js',
   output: {
     filename: 'App.js',

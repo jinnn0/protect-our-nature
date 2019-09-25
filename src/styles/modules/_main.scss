@@ -1,21 +1,28 @@
+* {
+  // border: 1px solid black;
+}
+
 main {
   width: 100%;
   height: auto;
+
+      a {
+        display: inline-block;
+        width: 65%;
+      }
 
 
       section {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
         width: 100%;
         height: auto;
-        padding: 0 1rem;
         margin-bottom: 8rem;
         cursor: pointer;
 
         @include atMedium {
-         padding: 0 4rem;
+         padding: 1rem 4rem 10rem 4rem;
         }
 
             h1 {
@@ -23,17 +30,24 @@ main {
               margin-bottom: 2rem;
 
               @include atMedium {
-                width: 50%;
+                width: 90%;
               }
+            }
+
+            img {
+              margin-bottom: 2rem;
+              width: 700px;
+              height: 600px;
+              object-fit: fill;
             }
 
             p {
               width: 100%;
               margin-bottom: 1rem;
-              text-align: left;
+              text-align: center;
 
               @include atMedium {
-                width: 70%;
+                width: 75%;
               }
             }
       }
