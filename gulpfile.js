@@ -16,6 +16,7 @@ gulp.task('sass', function(){
     })
 
 
+<<<<<<< HEAD
 gulp.task('scripts', function(){
   webpack(webpackConfig, function(err, stats){ 
     if(err){
@@ -27,6 +28,11 @@ gulp.task('scripts', function(){
 
 
 
+=======
+
+
+
+>>>>>>> 6ff225cd624a07ac8e00feec24e1fdd89979762f
 gulp.task('watch', function(){
   browserSync.init({
     notify: false,
